@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-DO Web App</title>
+    <link rel="stylesheet" type="text/css" href="todo.css" />
+</head>
+<body>
+    <div class="head">
+     <h3>TODO WEB APP</h3>
+    </div>
+    <span>
+    <form>
+        <h2>Title</h2>
+        <input id="input-title" placeholder="Title" />
+        <h2>Description</h2>
+        <input id="input-desc" placeholder="Description" /><br />
+        <h3 class="error"></h2>
+        <button onclick="addtask()" type="submit">SUBMIT</button>
+    </form></span>
+    <span>
+        <div class="options">
+            <table id="table">
+              <tr>
+                <th>TASK NAME</th>
+                <th>Description</th>
+                <th>Delete</th>
+            </tr>     
+            </table>
+        </div>
+    </span>
+
+<script src="todo.js"></script>
+</body>
+</html>
