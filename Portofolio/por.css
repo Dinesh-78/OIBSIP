@@ -1,0 +1,248 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+
+.menu .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    
+   
+}
+.menu .nav-bar h3{
+    font-size: 40px;
+    cursor: pointer;
+}
+.menu .nav-bar h3:hover{
+    color:  blue;
+    
+}
+.menu .nav-bar li{
+    
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.menu .nav-bar li:hover{
+    color: blue;
+}
+
+
+.menu .nav-bar button{
+    display: inline-block;
+    padding: 12px 18px;
+    background: transparent;
+    border: 2px solid #ff3385;
+   
+    transition: 0.5s;
+    border-radius: 10px;  
+    font-size: 18px;  
+    text-transform: uppercase;
+    font-weight: 500;  
+     
+}
+.menu .nav-bar button:hover {
+    background-position: right center; 
+    background-image: linear-gradient(to right, #e43a15 0%, #e65245  51%, #e43a15  100%);
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+  }
+
+.intro{
+   
+     display: flex;
+     background-image:url('/img/bg1.jpg');
+     background-size: 100% 100%;
+    
+}
+
+.intro-text{
+    margin:100px 300px 400px 300px;
+    font-family: 'Viga', sans-serif;
+}/*
+.intro-text #fir{
+    font-size: 35px;
+    font-weight: 500;
+
+}
+.intro-text h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 40px;
+
+}
+.intro-text h4{
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 35px;
+
+}
+
+.intro-text #help{
+    margin-top: 20px;
+    font-size: 17px;
+    
+}
+*/
+.img img{
+    margin-top: 100px;
+   width: 60%;
+   border-radius: 80%;
+} 
+.certifications{
+    display: flex;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    height: 25rem;
+    margin-left: 8rem;
+    justify-content: center;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .cont {
+    padding: 2px 16px;
+    
+    text-align: center;
+  }
+.certifications .card .cont button{
+    padding: 10px 20px;
+    margin: 2rem 1rem;
+    border-radius: 10px;
+}
+
+.certifications .card img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+
+.project img{
+    width: 60%;
+    border-radius: 20px;
+    margin-left: 190px;
+}
+.project #con{
+    margin-right: 20rem;
+}
+.project #con2{
+    margin-left: 20rem;
+}
+
+.contact{
+    background-color: #ff3385;
+    margin: 5rem auto;
+    width: 40rem;
+    height: 15rem;
+    border-radius: 20px;
+    text-align: center;
+}
+.contact p{
+    font-size:30px;
+    text-transform: uppercase;
+    margin: 50px;
+}
+.contact input,button {
+    padding: 10px 20px;
+}
+/* my skiils */
+
+.skills{
+    padding: 5rem 0 2.5rem 0;
+}
+.skills > .text{
+    width: 70%;
+    margin: 1.5rem auto;
+    text-align: center;
+}
+.skills .row{
+    margin: 1rem 0;
+}
+.skills .item{
+    padding: 0.5rem 0;
+    margin: 0.3rem 0;
+}
+.skills .item-text{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 600;
+    font-size: 1.3rem;
+    position: relative;
+}
+.skills .item-text span:last-child{
+    position: absolute;
+}
+.skills .item-text .w-90{
+    margin-left: 85%;
+}
+.skills .item-text .w-75{
+    margin-left: 70%;
+}
+.skills .item-text .w-85{
+    margin-left: 80%;
+}
+.skills .item-text .w-80{
+    margin-left: 75%;
+}
+.skills .item-text .w-60{
+    margin-left: 55%;
+}
+.skills .item-text .w-68{
+    margin-left: 63%;
+}
+.progress{
+    margin: 0.8rem 0;
+    border-radius: 10px;
+    height: 16px;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+.progress-bar{
+    background: red;
+    height: 100%;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.progress-bar.w-90{
+    width: 90%;
+}
+.progress-bar.w-75{
+    width: 75%;
+}
+.progress-bar.w-85{
+    width: 85%;
+}
+.progress-bar.w-80{
+    width: 80%;
+}
+.progress-bar.w-60{
+    width: 60%;
+}
+.progress-bar.w-68{
+    width: 68%;
+}
+
+.skills .row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
